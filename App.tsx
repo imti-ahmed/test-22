@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Input } from './components/ui/input';
 import { Button } from './components/ui/button';
-import { Search } from 'lucide-react';
+import { Search } from "lucide-react";
 
 export default function App() {
   const [searchValue, setSearchValue] = useState('');
