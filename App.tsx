@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Input } from './components/ui/input';
 import { Button } from './components/ui/button';
+import { Search } from 'lucide-react';
 
 export default function App() {
   const [searchValue, setSearchValue] = useState('');
@@ -21,6 +22,7 @@ export default function App() {
             className="flex-1"
           />
           <Button onClick={handleSearch}>
+            <Search className="h-4 w-4" />
           </Button>
         </div>
       </div>
